@@ -11,7 +11,6 @@
   inputs.src-kmer-master.ref   = "refs/heads/master";
   inputs.src-kmer-master.owner = "brentp";
   inputs.src-kmer-master.repo  = "nim-kmer";
-  inputs.src-kmer-master.dir   = "";
   inputs.src-kmer-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

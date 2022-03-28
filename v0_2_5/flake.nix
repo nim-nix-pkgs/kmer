@@ -11,7 +11,6 @@
   inputs.src-kmer-v0_2_5.ref   = "refs/tags/v0.2.5";
   inputs.src-kmer-v0_2_5.owner = "brentp";
   inputs.src-kmer-v0_2_5.repo  = "nim-kmer";
-  inputs.src-kmer-v0_2_5.dir   = "";
   inputs.src-kmer-v0_2_5.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
